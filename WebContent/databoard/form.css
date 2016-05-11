@@ -1,0 +1,74 @@
+#wrapper{
+	border : 5px solid #ededed;
+    width:500px;
+    margin : 0px auto;
+    border-radius : 10px;
+    padding : 15px;
+}
+
+#writeForm{
+	display: table;
+	margin:10px auto;
+	border-collapse: collapse;
+}
+#writeForm p{
+	display: table-row;
+	padding : 5px;
+	border-bottom: 1px solid #868686;
+}
+#writeForm label{
+	display: table-cell;
+	padding-left: 40px;
+}
+#writeForm #username{
+	width:100px;
+	text-align:left;
+}
+#writeForm #usersub{
+	width:250px;
+	display:block;
+	text-align:left;
+}
+#writeForm #usercont{
+	width:250px;
+	background-color:#fff;
+	border : 1px solid #FF3399;
+	padding : 3px;
+	margin : 5px;
+	height : 80px;
+	text-align:left;
+}
+#writeForm #upload{
+	width:250px;
+	text-align:left;
+}
+#writeForm #userpwd{
+	width:80px;
+	text-align:left;
+}
+#writeForm input[type="text"],#writeForm input[type="password"],
+#writeForm input[type="file"]{
+	background-color:#fff;
+	border : 1px solid #FF3399;
+	padding : 3px;
+	margin : 5px; 
+	text-align:left;
+}
+#writeForm input[type="button"]{
+	background-color: #fff;
+	border:2px solid #F39;
+	padding:3px 10px;
+	border-radius:20px;
+}
+#writeForm .cellStyle{
+	display:table-cell;
+	padding-left:5px;
+}
+#writeForm .btnSubmit{
+	display:block;
+	text-align:center;
+	position:relative;
+	left:250px;
+	top:2px;
+	border-bottom-style : none;
+}

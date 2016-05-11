@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="JSPincludeProject" path="/JSPincludeProject"
+	reloadable="true" source="org.eclipse.jst.jee.server:JSPincludeProject">
+	<Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver"
+		maxActive="10" maxIdle="10" maxWait="-1" name="jdbc/oracle" password="tiger"
+		type="com.sist.exercise.MyDataSource" url="jdbc:oracle:thin:@211.238.142.25:1521:ORCL"
+		username="scott" />
+</Context>
